@@ -4,5 +4,6 @@ def login(user, password):
         
         
     print("Welcome, " + user.name)
+    print("Your name in uppercase is:")
     
     print(user.name.upper())
